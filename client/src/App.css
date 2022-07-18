@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Karla&display=swap');
+
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.app--container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.register--container{
+  border: 1px solid rgb(121, 0, 207);
+  padding: 40px 50px;
+  width: max-content;
+  height: max-content;
+  border-radius: 5px;
+  background-color: rgb(241, 255, 227);
+}
+
+.register--title{
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: 'Indie Flower', cursive;
+
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+
+.register--button{
+  padding: 2px 5px;
+  margin-left: 38px;
+
+  background-color: rgb(244, 244, 244) ;
+  cursor: pointer;
+
+  border-radius: 15px;
+
+  font-size: 12px;
+  font-weight: 700; 
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Karla', sans-serif;
+}
+
+.register--input{
+  display: block;
+  font-size: small;
+  padding: 7px;
+  margin: 10px auto;
+  border-radius: 15px;
+  border-color: blueviolet;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Karla', sans-serif;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 25%;
+    width: 100%
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}

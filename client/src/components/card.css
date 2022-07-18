@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Karla&display=swap');
+
+.card--container {
+  width: 245px;
+  border: 1px solid rgb(121, 0, 207);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card--container:hover{
+  border: 3px solid rgb(11, 255, 174);
+}
+
+.card--title {
+  font-family: 'Indie Flower', cursive;
+}
+
+.card--category {
+  margin-top: 5px;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Karla', sans-serif;
+}
+
+.card--cost {
+  margin-top: 3px;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Karla', sans-serif;
+}
